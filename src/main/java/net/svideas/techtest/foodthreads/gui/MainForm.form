@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.svideas.techtest.foodthreads.gui.MainForm">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="10" vgap="10">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="Pizzeria Threads"/>
+    <children>
+      <toolbar id="9a153">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="14d39" class="javax.swing.JButton" binding="addCookButton">
+            <constraints/>
+            <properties>
+              <text value="Add cook"/>
+            </properties>
+          </component>
+          <component id="426b" class="javax.swing.JButton" binding="addSupplyButton">
+            <constraints/>
+            <properties>
+              <text value="Add supply"/>
+            </properties>
+          </component>
+          <component id="d18cc" class="javax.swing.JButton" binding="clearLogButton">
+            <constraints/>
+            <properties>
+              <text value="Clear log"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <scrollpane id="a7153">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="22689" class="javax.swing.JTextArea" binding="logArea">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="55dbb" binding="fridgeProgressPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none" title="Fridge contents"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.svideas.techtest.foodthreads.gui.SupplyForm">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="Supply Thread"/>
+    <children>
+      <scrollpane id="e2975">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="33ab8" class="javax.swing.JTextArea" binding="logArea">
+            <constraints/>
+            <properties>
+              <background color="-3342388"/>
+              <editable value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <toolbar id="cce26">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background swing-color="Button.background"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d77de" class="javax.swing.JButton" binding="clearLogButton">
+            <constraints/>
+            <properties>
+              <background swing-color="Button.background"/>
+              <text value="Clear log"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>
